@@ -4,3 +4,7 @@ files:
     dest: src/main/resources/assets/thebetweenlands/%file_name%.properties
     translation: src/main/resources/assets/thebetweenlands/%locale_with_underscore%.lang
     type: properties
+  - source:  src/en_US.lang
+    dest: src/%file_name%.properties
+    translation: src/%locale_with_underscore%.lang
+    type: properties
